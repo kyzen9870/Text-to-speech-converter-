@@ -10,7 +10,7 @@ engine.setProperty("rate", 120) # speed set krna
 voices = engine.getProperty("voices") 
 engine.setProperty("voice", voices[1].id) # femal voice ke liye 1
 
-# text1 =''' Hello Sana, how are you?
+# text1 =''' Hello Anas, how are you?
 #   Your Python project is coming along great.
 #  Now I can speak more than one line.
 #  Keep learning and keep coding!
@@ -23,3 +23,4 @@ engine.setProperty("voice", voices[1].id) # femal voice ke liye 1
 
 engine.say(data)
 engine.runAndWait() 
+
